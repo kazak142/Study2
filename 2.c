@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main(void) {
-    int x;
+  int x;
 
-    printf("Введите целое число: ");
-    scan("%d", &x)
-    printf("Вы ввели: %d\n", x);
-    return 0;
+  printf("Введите целое число: ");
+  scanf("%d", &x);
+  printf("Вы ввели: %d\n", x);
+  return 0;
 }
